@@ -1,6 +1,6 @@
 service: tts.speak
 data:
-  message: Denk je aan de tijd? Het is {{ now().hour }} uur {{ now().minute }}. 
+  message: Denk je aan de tijd? Het is {{ now().hour }} uur {{ now().minute }}. De sproeier mag bijna uit.
   media_player_entity_id: media_player.badkamer_3
   language: nl
   entity_id: tts.google_nl_com
